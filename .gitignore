@@ -1,0 +1,27 @@
+# Local model assets are available in the original ZIP release.
+*.engine
+*.onnx
+*.trt
+*.zip
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.venv/
+venv/
+.pytest_cache/
+*.log
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep the bundled SSD .pth, font, labels, samples and paper tracked.
